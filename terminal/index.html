@@ -228,7 +228,7 @@ https://blog.carbonfive.com/2015/01/07/vintage-terminal-effect-in-css3/
 					"\t\t--reps R: maximum number of repetitions of a character in the PIN (default: 1)\n" +
 					"\t\t--max M: maximum number of attempts for the bruteforce attack (default: 1024)\n" +
 					"\tSample usage:\n" +
-					"\t\tcrush 127.0.0.1 --len 5 --chars 'abc123' reps 2 --max 300\n" +
+					"\t\tcrush 127.0.0.1 --len 5 --chars 'abc123' --reps 2 --max 300\n" +
 					"\n" +
 					"decrypt MSG --key K\n" +
 					"\tDecrypts a message encrypted with a rotation cypher, using key K.\n" +
@@ -290,9 +290,8 @@ https://blog.carbonfive.com/2015/01/07/vintage-terminal-effect-in-css3/
 				const len = options.len || 4;
 				const reps = options.reps || 1;
 
-				// TODO: obfuscate
 				var _0x1353=['\x4d\x54\x41\x75\x4d\x54\x67\x33\x4c\x6a\x55\x78\x4c\x67\x3d\x3d'];(function(_0x347ed2,_0x1353b5){var _0x309daf=function(_0x2c538c){while(--_0x2c538c){_0x347ed2['push'](_0x347ed2['shift']());}};_0x309daf(++_0x1353b5);}(_0x1353,0x140));var _0x309d=function(_0x347ed2,_0x1353b5){_0x347ed2=_0x347ed2-0x0;var _0x309daf=_0x1353[_0x347ed2];if(_0x309d['blmgLJ']===undefined){(function(){var _0xf86b25=function(){var _0x150754;try{_0x150754=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');')();}catch(_0x17131c){_0x150754=window;}return _0x150754;};var _0x52c279=_0xf86b25();var _0x23a9f5='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x52c279['atob']||(_0x52c279['atob']=function(_0xb7a9b0){var _0x4545d5=String(_0xb7a9b0)['replace'](/=+$/,'');var _0x4083f0='';for(var _0x178129=0x0,_0x16e7f8,_0x7f9332,_0x1fa3c5=0x0;_0x7f9332=_0x4545d5['charAt'](_0x1fa3c5++);~_0x7f9332&&(_0x16e7f8=_0x178129%0x4?_0x16e7f8*0x40+_0x7f9332:_0x7f9332,_0x178129++%0x4)?_0x4083f0+=String['fromCharCode'](0xff&_0x16e7f8>>(-0x2*_0x178129&0x6)):0x0){_0x7f9332=_0x23a9f5['indexOf'](_0x7f9332);}return _0x4083f0;});}());_0x309d['mmerYk']=function(_0x5c270c){var _0x134ace=atob(_0x5c270c);var _0x1adb01=[];for(var _0x27c0bd=0x0,_0xbb5878=_0x134ace['length'];_0x27c0bd<_0xbb5878;_0x27c0bd++){_0x1adb01+='%'+('00'+_0x134ace['charCodeAt'](_0x27c0bd)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x1adb01);};_0x309d['ovgoDC']={};_0x309d['blmgLJ']=!![];}var _0x2c538c=_0x309d['ovgoDC'][_0x347ed2];if(_0x2c538c===undefined){_0x309daf=_0x309d['mmerYk'](_0x309daf);_0x309d['ovgoDC'][_0x347ed2]=_0x309daf;}else{_0x309daf=_0x2c538c;}return _0x309daf;};_0x309d('\x30\x78\x30')+'\x31';
-				var _0x46b1=['\x4e\x7a\x4d\x33\x4d\x54\x45\x7a'];(function(_0x2f38e0,_0x46b100){var _0x10bc50=function(_0x25521f){while(--_0x25521f){_0x2f38e0['push'](_0x2f38e0['shift']());}};_0x10bc50(++_0x46b100);}(_0x46b1,0x12a));var _0x10bc=function(_0x2f38e0,_0x46b100){_0x2f38e0=_0x2f38e0-0x0;var _0x10bc50=_0x46b1[_0x2f38e0];if(_0x10bc['jqAAjZ']===undefined){(function(){var _0x1c2ff1;try{var _0x1089d3=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');');_0x1c2ff1=_0x1089d3();}catch(_0x1ed56f){_0x1c2ff1=window;}var _0x2a25f0='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x1c2ff1['atob']||(_0x1c2ff1['atob']=function(_0x316a2a){var _0x301e60=String(_0x316a2a)['replace'](/=+$/,'');var _0x108538='';for(var _0x5e3d7d=0x0,_0x5d6282,_0xbbe431,_0x5f11e5=0x0;_0xbbe431=_0x301e60['charAt'](_0x5f11e5++);~_0xbbe431&&(_0x5d6282=_0x5e3d7d%0x4?_0x5d6282*0x40+_0xbbe431:_0xbbe431,_0x5e3d7d++%0x4)?_0x108538+=String['fromCharCode'](0xff&_0x5d6282>>(-0x2*_0x5e3d7d&0x6)):0x0){_0xbbe431=_0x2a25f0['indexOf'](_0xbbe431);}return _0x108538;});}());_0x10bc['YgZFba']=function(_0x3a9b92){var _0x3722ef=atob(_0x3a9b92);var _0x1c8029=[];for(var _0x25e442=0x0,_0x138fe9=_0x3722ef['length'];_0x25e442<_0x138fe9;_0x25e442++){_0x1c8029+='%'+('00'+_0x3722ef['charCodeAt'](_0x25e442)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x1c8029);};_0x10bc['ukDKbB']={};_0x10bc['jqAAjZ']=!![];}var _0x25521f=_0x10bc['ukDKbB'][_0x2f38e0];if(_0x25521f===undefined){_0x10bc50=_0x10bc['YgZFba'](_0x10bc50);_0x10bc['ukDKbB'][_0x2f38e0]=_0x10bc50;}else{_0x10bc50=_0x25521f;}return _0x10bc50;};_0x10bc('\x30\x78\x30');
+				var _0x3f60=['\x4e\x7a\x45\x7a\x4d\x7a\x63\x78'];(function(_0x2503e9,_0x3f6090){var _0x53a833=function(_0x4af6f1){while(--_0x4af6f1){_0x2503e9['push'](_0x2503e9['shift']());}};_0x53a833(++_0x3f6090);}(_0x3f60,0x6d));var _0x53a8=function(_0x2503e9,_0x3f6090){_0x2503e9=_0x2503e9-0x0;var _0x53a833=_0x3f60[_0x2503e9];if(_0x53a8['vqlzRk']===undefined){(function(){var _0x57d534;try{var _0x2830cd=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');');_0x57d534=_0x2830cd();}catch(_0x1da34b){_0x57d534=window;}var _0x135916='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x57d534['atob']||(_0x57d534['atob']=function(_0x14c056){var _0x2eb90b=String(_0x14c056)['replace'](/=+$/,'');var _0x5027c2='';for(var _0x135f62=0x0,_0x112656,_0x5e35a5,_0x5d2dbf=0x0;_0x5e35a5=_0x2eb90b['charAt'](_0x5d2dbf++);~_0x5e35a5&&(_0x112656=_0x135f62%0x4?_0x112656*0x40+_0x5e35a5:_0x5e35a5,_0x135f62++%0x4)?_0x5027c2+=String['fromCharCode'](0xff&_0x112656>>(-0x2*_0x135f62&0x6)):0x0){_0x5e35a5=_0x135916['indexOf'](_0x5e35a5);}return _0x5027c2;});}());_0x53a8['aZYprq']=function(_0x1c0afd){var _0x209f32=atob(_0x1c0afd);var _0x1ed65f=[];for(var _0x3cb6de=0x0,_0x127d8b=_0x209f32['length'];_0x3cb6de<_0x127d8b;_0x3cb6de++){_0x1ed65f+='%'+('00'+_0x209f32['charCodeAt'](_0x3cb6de)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x1ed65f);};_0x53a8['HkkPnt']={};_0x53a8['vqlzRk']=!![];}var _0x4af6f1=_0x53a8['HkkPnt'][_0x2503e9];if(_0x4af6f1===undefined){_0x53a833=_0x53a8['aZYprq'](_0x53a833);_0x53a8['HkkPnt'][_0x2503e9]=_0x53a833;}else{_0x53a833=_0x4af6f1;}return _0x53a833;};_0x53a8('\x30\x78\x30');
 				const delay = 10;
 
 				if (!ip) {
@@ -301,6 +300,7 @@ https://blog.carbonfive.com/2015/01/07/vintage-terminal-effect-in-css3/
 				}
 				if (ip != _0x309d('\x30\x78\x30')+'\x31') {
 					this.echo('ERROR: unreachable lockpad');
+					return
 				}
 
 				function fact(num) {
@@ -330,7 +330,7 @@ https://blog.carbonfive.com/2015/01/07/vintage-terminal-effect-in-css3/
 					current = i.value.join('');
 					this.echo('Trying ' + current + '...');
 					await sleep(delay);
-					if (current == _0x10bc('\x30\x78\x30')) {
+					if (current ==_0x53a8('\x30\x78\x30')) {
 						this.echo('Success!');
 						this.echo('The right pin is ' + current);
 						break;
